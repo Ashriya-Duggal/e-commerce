@@ -1,0 +1,180 @@
+body{
+
+   margin : 0% 15%;
+}
+.text-center {
+  margin-top: 0;
+}
+.first-a{
+  padding-left: 5rem;
+  
+}
+h1 {
+  font-weight: 700;
+
+}
+.nav-link {
+  color: hsl(219, 9%, 45%);
+  font-family: "Kumbh Sans", sans-serif;
+  padding: 0 20% 0 20%;
+  font-size: medium;
+}
+.image {
+  height:80%;
+  width: 82%;
+  margin-top: 0;
+  border-radius: 2%;
+}
+.image1{
+  height: 100px;
+  width: 100px;
+  border-radius: 5%;
+  position: relative;
+  top: 1.2rem;
+  right: -6rem;
+}
+.image2{
+  height: 100px;
+  width: 100px;
+  border-radius: 5%;
+  position: relative;
+  top: 1.2rem;
+  right: 7.5rem;
+}
+
+.image3{
+  height: 100px;
+  width: 100px;
+  border-radius: 5%;
+  position: relative;
+  top: 1.2rem;
+  right: 0.1rem;
+}
+
+.image4{
+  height: 100px;
+  width: 100px;
+  border-radius: 5%;
+  position: relative;
+  top: 1.2rem;
+  right: -0.3rem;
+}
+.horizontal-line{
+  /* border-width: 0 0 0 1px; */
+  height: 1px;
+  width: auto;
+margin: 5% auto;
+justify-content: center;
+/* border: solid grey; */
+
+}
+
+.text {
+  text-align: left;
+  height: 50%;
+  padding: 8% 5%;
+}
+.icon {
+  position: absolute;
+  right: 6%;
+}
+.icon1 {
+  position: absolute;
+  height: 2rem;
+  margin-left: 62rem;
+}
+h6 {
+  color: hsl(26, 100%, 55%);
+  padding-bottom: 1rem;
+}
+h2 {
+  font-weight: 700;
+  display: inline-block;
+  margin-right:30px ;
+}
+h5{
+    color:hsl(26, 100%, 55%);
+    background-color: rgb(249, 225, 215);
+    display: inline-block;
+    padding: 0 10px;
+    border-radius:3px ;
+}
+.btn1 {
+  width: 18rem;
+  color: #fff;
+  background-color: hsl(26, 100%, 55%);
+  margin-left:40px;
+  height: 40px;
+  border: 0;
+}
+.carousel-display{
+  visibility: hidden;
+  width: 100px;
+  height: 100px;
+}
+
+.line
+{
+    text-decoration: line-through;
+}
+p {
+  color: darkgray;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.parent {
+  display: flex;
+}
+.cart{
+    margin-right: 10px;
+}
+.plus {
+  background-color: aliceblue;
+  width: 30%;
+  /* margin-right: 8%; */
+}
+/* .minus{
+  /* width: 100%; */
+
+@media only screen and (max-width: 640px) and (min-width: 375px)
+{
+.text{
+  grid-template-columns: 1fr;
+}  
+.image{
+  visibility: hidden;
+}
+.icon {
+  position: absolute;
+  top:9rem;
+  right: 15%;
+}
+.icon1 {
+  position: absolute;
+  right: 0;
+  top:8.7rem;
+  height: 2rem;
+}
+.horizontal-line{
+  position: relative;
+  top: 20px;
+}
+.btn1{
+  width: 95%;
+}
+.none{
+  display: none;
+}
+.minus{
+width: 50%;
+}
+.row{
+  --bs-gutter-x: 0;
+}
+.carousel-display{
+  visibility: visible;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+}
+

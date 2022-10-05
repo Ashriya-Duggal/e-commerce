@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- css  -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <h1>sneakers</h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav first-a">
+            <li class="nav-item">
+              <a class="nav-link first-nav" href="#">Collections</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link first-nav" href="#">Men</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link first-nav">Women</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link first-nav">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link first-nav">Contact</a>
+            </li>
+          </ul>
+
+          <img class="icon" src="images/icon-cart.svg" alt="cart-image" />
+          <img class="icon1" src="images/image-avatar.png" alt="profile" />
+        </div>
+      </div>
+    </nav>
+
+    <hr class="horizontal-line" />
+    <!-- <bootstrap-grid> -->
+
+    <div class="container text-center">
+      <div class="row cols-2">
+        <div class="col image">
+          <img class="image" src="images/image-product-1.jpg" alt="" />
+          <img class="none image1" src="images/image-product-3.jpg" alt="" />
+          <img class="none image2" src="images/image-product-2.jpg" alt="" />
+          <img class="none image3" src="images/image-product-4.jpg" alt="" />
+          <img class="none image4" src="images/image-product-1.jpg" alt="" />
+        </div>
+        <div
+          id="carousel"
+          class="carousel slide carousel-display"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/image-product-1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/image-product-3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/image-product-2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/image-product-4.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="col text">
+          <h6>Sneaker Company</h6>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <h2>$125.00</h2>
+          <h5>50%</h5>
+          <p class="line">$250.00</p>
+          <div class="parent">
+            <button type="button" class="btn plus">
+              -&nbsp; &nbsp; 0 &nbsp; &nbsp; +
+            </button>
+            <div class="minus">
+              <button type="button" class="btn btn1">
+                <img class="cart" src="images/icon-cart.svg" /> Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ashriya Duggal</a>
+    </div> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
